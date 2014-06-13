@@ -1,6 +1,6 @@
-### TuxLite Readme
+### DebLite Readme
 
-TuxLite is a free collection of shell scripts for rapid deployment of
+DebLite is a free collection of shell scripts for rapid deployment of
 LAMP and LNMP stacks (Linux, Apache/Nginx, MySQL and PHP) for Debian and
 Ubuntu. 
 
@@ -8,7 +8,7 @@ Have you considered upgrading from shared hosting to a VPS or dedicated
 server but held off by the costly control panel licenses, or the fear of
 managing a Linux server? Now you can leave those worries behind!
 
-TuxLite scripts automate configuration of servers for web hosting,
+DebLite scripts automate configuration of servers for web hosting,
 so your websites can be online within minutes! Ideal for those who
 prefer hosting sites on their own server without resorting to expensive
 and bloated control panels.
@@ -21,21 +21,12 @@ The following are installed:-
 -   Postfix mail server (securely configured to be outgoing only)
 -   Varnish cache (optional)
 
-For more detailed explanation on the installation, usage and script features, 
-kindly refer to these links:-
-
-[Installation](http://tuxlite.com/installation/)
-
-[Script features](http://tuxlite.com/script-details/)
-
-[Download](http://tuxlite.com/download/)
-
 ### Quick Install (Git)
 
-    # Install git and clone TuxLite
+    # Install git and clone DebLite
     aptitude install git
-    git clone https://github.com/Mins/TuxLite.git
-    cd TuxLite
+    git clone https://github.com/fawii/DebLite.git
+    cd DebLite
     
     # Edit options to enter server IP, MySQL password etc.
     nano options.conf
@@ -71,9 +62,9 @@ kindly refer to these links:-
 If this is your first time with a Linux server, I suggest spending a day
 reading the "getting started" tutorials in Linode Library.
 
-### Why use TuxLite?
+### Why use DebLite?
 
--   TuxLite LAMP stack configures Apache with mpm\_event and PHP with
+-   DebLite LAMP stack configures Apache with mpm\_event and PHP with
     fastcgi (PHP-FPM). This gives much higher performance and lower memory
     consumption than the regular LAMP tutorials/guides using mod\_php.
 -   Uses official distribution packages. You are not at the mercy of the
